@@ -1,0 +1,139 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffecdb; /* Light peach background */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #ff6b6b; /* Coral background */
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #222;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.food-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.food-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.food-item h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #222;
+}
+
+.food-item p {
+    margin-top: 5px;
+    color: #555;
+    font-size: 16px;
+}
+
+.testimonial {
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#reservation form {
+    text-align: center;
+}
+
+#reservation label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #222;
+}
+
+#reservation input[type="text"],
+#reservation input[type="email"],
+#reservation input[type="date"],
+#reservation input[type="time"],
+#reservation button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background: #ff6b6b; /* Coral background for the button */
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+
+#map {
+    text-align: center;
+}
+
+iframe {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+footer {
+    background: #ff6b6b; /* Coral background for the footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
